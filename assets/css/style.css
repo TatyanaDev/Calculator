@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(127, 46, 129, 1) 100%);
+  margin: 0;
+}
+
+.wrapper_container {
+  background: url("../image/iphone_calc.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.container {
+  position: relative;
+  top: 10px;
+}
+
+.display {
+  background-color: #000000;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  text-align: right;
+  color: #ffffff;
+  font-size: 60px;
+  outline: none;
+  height: 150px;
+  width: 210px;
+  resize: none;
+  border: none;
+  padding: 0;
+}
+
+.display::-webkit-scrollbar {
+  background-color: #000000;
+  width: 5px;
+}
+
+.display::-webkit-scrollbar-thumb {
+  background-color: #9f9f9f;
+  border-radius: 10px;
+}
+
+.wrapper_buttons {
+  justify-content: space-between;
+  display: flex;
+}
+
+.date {
+  font-family: sans-serif;
+  position: relative;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 10px;
+  bottom: 23px;
+  right: 80px;
+}
+
+.button {
+  background-color: #313131;
+  font-family: sans-serif;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 25px;
+  height: 45px;
+  border: none;
+  width: 45px;
+  margin: 3px;
+  padding: 0;
+}
+
+.reset {
+  background-color: #9f9f9f;
+  color: #000000;
+}
+
+.sign {
+  background-color: #f69906;
+}
