@@ -53,7 +53,7 @@ body {
   display: flex;
 }
 
-.date {
+.time {
   font-family: sans-serif;
   position: relative;
   font-weight: bold;
